@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Neuton', serif;
+    font-family: 'Roboto', serif;
     margin: 0;
     padding: 0;
 }
@@ -8,4 +8,111 @@
 body {
     background-color: #ffffff;
     color: #000000;
+}
+
+#header{
+    background-color: #ff6900;
+    color: white;
+    height: 48px;
+}
+
+#header-container {
+    width: 40%;
+    height: 48px;
+    font-size: 12px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#departments li {
+    display: inline-block;
+}
+
+#logo {
+    margin-right: 80px;
+}
+
+img {
+    display: block;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-y-20 {
+    margin: 40px 0px 20px 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-s-10 {
+    font-size: 10px;
+}
+
+#main-container {
+    width: 40%;
+    margin: auto;
+}
+
+.text-red {
+    color: red;
+}
+
+.line-th {
+    text-decoration: line-through;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-sm {
+    font-size: 12px;
+}
+
+.description {
+    margin: 5px 0px;
+}
+
+#shop {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px 0px;
+    border: 1px solid #e8e8e8;
+}
+
+#footer {
+    margin-top: 60px;
+    background-color: #1a1a1a;
+    color: white;
+    height: 64px;
+}
+
+#footer-container {
+    width: 40%;
+    margin: auto;
+    height: 64px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#legal li {
+    display: inline-block;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: white;
 }
